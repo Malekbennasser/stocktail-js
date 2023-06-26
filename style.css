@@ -1,0 +1,127 @@
+/* Body_________________________________________ */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Header_________________________________________ */
+header {
+  background-image: url(background.png);
+  background-size: contain;
+  color: white;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.1rem;
+
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.h1 {
+  color: #333;
+  padding-left: 9rem;
+  padding-top: 1rem;
+}
+/* Form_________________________________________ */
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2rem 0;
+  padding: 0 2rem;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  width: 80vw;
+}
+
+.form input,
+.form select {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+.form select {
+  width: 30%;
+}
+
+.form button {
+  box-shadow: 0 0 4px rgba(4, 4, 4, 0.67);
+  width: 30%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  margin-bottom: 0.5rem;
+}
+
+.form button:hover {
+  background-color: #555;
+}
+
+/* List_________________________________________*/
+
+.ulContainer {
+  margin: 2rem;
+}
+
+.ulContainer li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  margin-right: 2rem;
+  padding: 1rem;
+  background-color: #e1e1e1;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(4, 4, 4, 0.36);
+}
+
+.ulContainer input {
+  width: 70px;
+  margin-right: 1rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-Sup {
+  box-shadow: 0 0 4px rgba(4, 4, 4, 0.67);
+  width: 100px;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  margin-bottom: 0.5rem;
+  margin-left: 1rem;
+}
+.btn-Sup:hover {
+  background-color: #ac1e1e;
+}
+.btn-Mof {
+  box-shadow: 0 0 4px rgba(4, 4, 4, 0.67);
+  width: 100px;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  margin-bottom: 0.5rem;
+}
+.btn-Mof:hover {
+  background-color: #555;
+}
